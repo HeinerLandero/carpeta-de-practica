@@ -1,5 +1,6 @@
-
-
+#terceraSeccion{
+    padding: 20px;
+}
 .titulo{
     display: flex;
     justify-content: center;
@@ -29,6 +30,9 @@
     text-align: center;
     font-size: 20px;
 }
+.sub-caja{
+    text-align: center;
+}
 .logo{
     display: flex;
     width: 94px;
@@ -36,5 +40,54 @@
 }
 .btn{
     font-size: 20px;
+    color: black;
+    text-align: center;
 }
+@media screen and (max-width: 800px){
+    .servicios{
+            display: flex;
+            flex-direction: column;
+        }    
+    .detalles{
+            display: flex;
+            flex-direction: column;
+            
+        }
+        .caja{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            margin: 20px;
+        }
+        .sub-caja{
+            display: flex;
+            flex-direction: column;
+            justify-content: left;
+            margin: 10px 10px 10px 10px;
+        }
+        .detalles{
+            width: 290px;
+            height: 69px;
+            text-align: left;
+            font-size: 20px;
+        }
+        .logo{
+            display: flex;
+            width: 48px;
+            height: 48px;
+            padding: 10px;
+        }
+        .subtitulos{
+            width: 290px;
+            height: 32px;
+            text-align: left;
+            font-size: 26px;
+            margin: 0%;
+        }
+        .btn{
+            font-size: 20px;
+            color: black;
+            text-align: left;
 
+}
