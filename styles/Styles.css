@@ -68,7 +68,7 @@
         }
         .detalles{
             width: 290px;
-            height: 69px;
+            height: 35px;
             text-align: left;
             font-size: 14px;
         }
@@ -91,4 +91,16 @@
             color: black;
             text-align: left;
          }
+         .titulo{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            font-size: 46px;
+            margin-top: 48px;
+        }
+        .container-logo{
+            height: 124px;
+
+        }
+        
 }
